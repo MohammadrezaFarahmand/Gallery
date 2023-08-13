@@ -23,13 +23,6 @@ const GalleryContainer: React.FC = () => {
     })
   }, [])
 
-  const filterHandler = (selectedCategory) => {
-    if (category.includes(selectedCategory)) {
-      let filter = category.filter((el) => el === selectedCategory)
-      setCategory(filter)
-    }
-  }
-
   return (
     <div>
       <div className="flex justify-evenly">
@@ -38,7 +31,6 @@ const GalleryContainer: React.FC = () => {
             key={index}
             text={item}
             clickHandler={() => {
-              filterHandler(item)
               console.log(item)
             }}
           />
