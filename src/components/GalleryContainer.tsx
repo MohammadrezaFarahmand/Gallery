@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react"
 import ImageCard from "./ImageCard"
 import CategoryButton from "./CategoryButton"
-import { getCategory, getPhotos } from "../utils/Api"
+import { getCategory, getPhotos, showCategory } from "../utils/Api"
 
 interface Image {
   url: string
@@ -11,33 +11,45 @@ interface Image {
 }
 
 const GalleryContainer: React.FC = () => {
-  const [category, setCategory] = useState<string[]>([])
+  const [categories, setCategories] = useState<string[]>([])
   const [images, setImages] = useState<Image[]>([])
+  const [selectedCategory, setSelectedCategory] = useState<string>("")
+  const [categoryImages, setCategoryImages] = useState<Image[]>([])
 
   useEffect(() => {
     getCategory().then((res) => {
-      setCategory(res.data)
+      setCategories(res.data)
     })
     getPhotos().then((res) => {
       setImages(res.data)
     })
   }, [])
 
+  useEffect(() => {
+    if (selectedCategory) {
+      showCategory(selectedCategory).then((res) => {
+        setCategoryImages(res.data)
+      })
+    }
+  }, [selectedCategory])
+
+  const handleCategoryClick = (category: string) => {
+    setSelectedCategory(category)
+  }
+
   return (
     <div>
       <div className="flex justify-evenly">
-        {category?.map((item, index) => (
+        {categories.map((item, index) => (
           <CategoryButton
             key={index}
             text={item}
-            clickHandler={() => {
-              console.log(item)
-            }}
+            clickHandler={() => handleCategoryClick(item)}
           />
         ))}
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-4">
-        {images?.map((item, index) => (
+        {(selectedCategory ? categoryImages : images).map((item, index) => (
           <ImageCard
             key={index}
             image={item.url}

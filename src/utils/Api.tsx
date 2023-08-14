@@ -30,3 +30,12 @@ export const getPhotoDetail = (id: undefined | string) => {
     url: `${base_url}photo/${id}`,
   })
 }
+
+export const showCategory = (category: string) => {
+  return defaultApi({
+    method: "get",
+    url: `${base_url}categories/${category}/photos`,
+  })
+    .then((res) => res)
+    .catch((err) => err)
+}
