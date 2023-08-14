@@ -1,7 +1,7 @@
 import React, { useEffect, useLayoutEffect, useState } from "react"
 import ImageCard from "./ImageCard"
 import CategoryButton from "./CategoryButton"
-import { getCategory, getPhotos, search, showCategory } from "../utils/Api"
+import { getCategory, getPhotos, search, showCategory } from "../services/Api"
 import SearchInput from "./SearchInput"
 
 interface Image {

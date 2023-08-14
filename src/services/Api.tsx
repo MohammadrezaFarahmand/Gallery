@@ -1,6 +1,5 @@
 import axios from "axios"
-export const url = "https://frontend-gallery.darkube.app/api/"
-export const base_url = url
+export const base_url = "https://frontend-gallery.darkube.app/api"
 
 let defaultApi = axios.create({
   baseURL: base_url,
@@ -9,7 +8,7 @@ let defaultApi = axios.create({
 export const getCategory = () => {
   return defaultApi({
     method: "get",
-    url: `${base_url}categories`,
+    url: `${base_url}/categories`,
   })
     .then((res) => res)
     .catch((err) => err)
@@ -18,7 +17,7 @@ export const getCategory = () => {
 export const getPhotos = () => {
   return defaultApi({
     method: "get",
-    url: `${base_url}photos`,
+    url: `${base_url}/photos`,
   })
     .then((res) => res)
     .catch((err) => err)
@@ -27,14 +26,14 @@ export const getPhotos = () => {
 export const getPhotoDetail = (id: undefined | string) => {
   return defaultApi({
     method: "get",
-    url: `${base_url}photo/${id}`,
+    url: `${base_url}/photo/${id}`,
   })
 }
 
 export const showCategory = (category: string) => {
   return defaultApi({
     method: "get",
-    url: `${base_url}categories/${category}/photos`,
+    url: `${base_url}/categories/${category}/photos`,
   })
     .then((res) => res)
     .catch((err) => err)
@@ -43,7 +42,7 @@ export const showCategory = (category: string) => {
 export const search = (userText: string) => {
   return defaultApi({
     method: "get",
-    url: `${base_url}photos?search=${userText}`,
+    url: `${base_url}/photos?search=${userText}`,
   })
     .then((res) => res)
     .catch((err) => err)

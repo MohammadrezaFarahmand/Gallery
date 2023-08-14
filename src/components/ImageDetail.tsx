@@ -1,18 +1,18 @@
 import React, { useEffect, useState } from "react"
 import { Link, useParams } from "react-router-dom"
-import { getPhotoDetail } from "../utils/Api"
+import { getPhotoDetail } from "../services/Api"
 
 interface Image {
   url: string
-  category?: string
+  category: string
   alt: string
-  photographer?: string
+  photographer: string
 }
 
 const ImageDetail = () => {
   const { id } = useParams()
 
-  const [image, setImage] = useState<Image>({
+  const [image, setImage] = useState({
     url: "",
     alt: "",
     category: "",

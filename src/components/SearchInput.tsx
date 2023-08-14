@@ -1,6 +1,9 @@
 import React from "react"
 
-const SearchInput = (props: { value: string; onChange: any }) => {
+const SearchInput = (props: {
+  value: string
+  onChange: (e: React.ChangeEvent<HTMLInputElement>) => void
+}) => {
   return (
     <div>
       <input
