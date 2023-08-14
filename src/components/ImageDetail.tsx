@@ -27,7 +27,6 @@ const ImageDetail = () => {
         category: res.data.category,
         photographer: res.data.photographer,
       })
-      console.log(res.data)
     })
   }, [id])
   return (

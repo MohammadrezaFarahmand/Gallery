@@ -43,7 +43,6 @@ const GalleryContainer: React.FC = () => {
   const searchHanlder = (e: React.ChangeEvent<HTMLInputElement>) => {
     setUserText(e.target.value)
     search(userText).then((res) => {
-      console.log(res.data)
       setSearchImage(res.data)
     })
   }
