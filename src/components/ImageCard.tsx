@@ -10,16 +10,18 @@ const ImageCard = (props: {
 }) => {
   return (
     <>
-      <div className="flex flex-col justify-center">
+      <div className="flex flex-col justify-center border-4 border-black">
         <Link to={`/photo/${props.id}`}>
           <img
-            className="w-3/5 aspect-square cursor-pointer"
+            className="inline w-3/5 aspect-square cursor-pointer p-1"
             src={props.image}
             alt={props.alt}
           />
         </Link>
-        <h6 className="text-left">{props.name}</h6>
-        <h5 className="text-left">Category:{props.category}</h5>
+        <div>
+          <h6>{props.name}</h6>
+          <h5>Category:{props.category}</h5>
+        </div>
       </div>
     </>
   )
