@@ -39,3 +39,12 @@ export const showCategory = (category: string) => {
     .then((res) => res)
     .catch((err) => err)
 }
+
+export const search = (userText: string) => {
+  return defaultApi({
+    method: "get",
+    url: `${base_url}photos?search=${userText}`,
+  })
+    .then((res) => res)
+    .catch((err) => err)
+}

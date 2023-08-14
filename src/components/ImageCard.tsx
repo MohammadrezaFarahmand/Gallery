@@ -6,6 +6,7 @@ const ImageCard = (props: {
   alt: any
   id?: number
   category: string
+  name?: string
 }) => {
   return (
     <>
@@ -17,6 +18,7 @@ const ImageCard = (props: {
             alt={props.alt}
           />
         </Link>
+        <h6 className="text-left">{props.name}</h6>
         <h5 className="text-left">Category:{props.category}</h5>
       </div>
     </>

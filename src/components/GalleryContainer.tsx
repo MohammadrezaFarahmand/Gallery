@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react"
 import ImageCard from "./ImageCard"
 import CategoryButton from "./CategoryButton"
-import { getCategory, getPhotos, showCategory } from "../utils/Api"
+import { getCategory, getPhotos, search, showCategory } from "../utils/Api"
+import SearchInput from "./SearchInput"
 
 interface Image {
   url: string
@@ -15,6 +16,8 @@ const GalleryContainer: React.FC = () => {
   const [images, setImages] = useState<Image[]>([])
   const [selectedCategory, setSelectedCategory] = useState<string>("")
   const [categoryImages, setCategoryImages] = useState<Image[]>([])
+  const [userText, setUserText] = useState<string>("")
+  const [searchImage, setSearchImage] = useState<Image[]>([])
 
   useEffect(() => {
     getCategory().then((res) => {
@@ -37,9 +40,25 @@ const GalleryContainer: React.FC = () => {
     setSelectedCategory(category)
   }
 
+  const searchHanlder = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setUserText(e.target.value)
+    search(userText).then((res) => {
+      console.log(res.data)
+      setSearchImage(res.data)
+    })
+  }
+
   return (
     <div>
-      <div className="flex justify-evenly">
+      <div className="mt-2">
+        <SearchInput
+          onChange={(e: any) => {
+            searchHanlder(e)
+          }}
+          value={userText}
+        />
+      </div>
+      <div className="flex justify-evenly mt-3">
         {categories.map((item, index) => (
           <CategoryButton
             key={index}
@@ -49,13 +68,19 @@ const GalleryContainer: React.FC = () => {
         ))}
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-4">
-        {(selectedCategory ? categoryImages : images).map((item, index) => (
+        {(selectedCategory
+          ? categoryImages
+          : userText
+          ? searchImage
+          : images
+        ).map((item, index) => (
           <ImageCard
             key={index}
             image={item.url}
             alt={item.alt}
             id={item.id}
             category={item.category}
+            name={item.alt}
           />
         ))}
       </div>
