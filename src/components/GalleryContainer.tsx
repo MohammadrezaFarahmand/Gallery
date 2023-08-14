@@ -1,4 +1,4 @@
-import React, { useEffect, useLayoutEffect, useState } from "react"
+import React, { useEffect, useState } from "react"
 import ImageCard from "./ImageCard"
 import CategoryButton from "./CategoryButton"
 import { getCategory, getPhotos, search, showCategory } from "../services/Api"
@@ -19,7 +19,7 @@ const GalleryContainer: React.FC = () => {
   const [userText, setUserText] = useState<string>("")
   const [searchImage, setSearchImage] = useState<Image[]>([])
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     getCategory().then((res) => {
       setCategories(res.data)
     })
@@ -28,7 +28,7 @@ const GalleryContainer: React.FC = () => {
     })
   }, [])
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     if (selectedCategory) {
       showCategory(selectedCategory).then((res) => {
         setCategoryImages(res.data)

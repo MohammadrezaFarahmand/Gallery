@@ -2,13 +2,6 @@ import React, { useEffect, useState } from "react"
 import { Link, useParams } from "react-router-dom"
 import { getPhotoDetail } from "../services/Api"
 
-interface Image {
-  url: string
-  category: string
-  alt: string
-  photographer: string
-}
-
 const ImageDetail = () => {
   const { id } = useParams()
 

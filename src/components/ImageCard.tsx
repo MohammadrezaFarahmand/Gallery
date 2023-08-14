@@ -2,8 +2,8 @@ import React from "react"
 import { Link } from "react-router-dom"
 
 const ImageCard = (props: {
-  image: any
-  alt: any
+  image: string
+  alt: string
   id: number
   category: string
   name: string
