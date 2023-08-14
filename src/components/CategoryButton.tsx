@@ -1,6 +1,9 @@
 import React from "react"
 
-const CategoryButton = (props: { text?: string; clickHandler?: any }) => {
+const CategoryButton = (props: {
+  text?: string
+  clickHandler?: React.MouseEventHandler<HTMLButtonElement>
+}) => {
   return (
     <div className="flex justify-evenly ">
       <button
