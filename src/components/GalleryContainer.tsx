@@ -3,13 +3,7 @@ import ImageCard from "./ImageCard"
 import CategoryButton from "./CategoryButton"
 import { getCategory, getPhotos, search, showCategory } from "../services/Api"
 import SearchInput from "./SearchInput"
-
-interface Image {
-  url: string
-  alt: string
-  id: number
-  category: string
-}
+import { Image } from "../types/ImageTypes"
 
 const GalleryContainer: React.FC = () => {
   const [categories, setCategories] = useState<string[]>([])
