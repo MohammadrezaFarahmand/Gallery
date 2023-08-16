@@ -1,9 +1,4 @@
-import axios from "axios"
-export const base_url = "https://frontend-gallery.darkube.app/api"
-
-let Api = axios.create({
-  baseURL: base_url,
-})
+import { base_url, Api } from "./AxiosCreate"
 
 export const getCategory = async () => {
   const response = Api({

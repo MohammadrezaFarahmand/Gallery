@@ -4,24 +4,27 @@ import { getPhotoDetail } from "../services/Api"
 
 const ImageDetail = () => {
   const { id } = useParams()
-
   const [image, setImage] = useState({
     url: "",
     alt: "",
     category: "",
     photographer: "",
   })
-
   useEffect(() => {
     getPhotoDetail(id).then((res) => {
-      setImage({
-        url: res.data.url,
-        alt: res.data.alt,
-        category: res.data.category,
-        photographer: res.data.photographer,
-      })
+      if (res.status === 200) {
+        setImage({
+          url: res.data.url,
+          alt: res.data.alt,
+          category: res.data.category,
+          photographer: res.data.photographer,
+        })
+      } else {
+        window.location.href = "/"
+      }
     })
   }, [id])
+
   return (
     <div className="inline ">
       <img className="inline " src={image.url} alt={image.alt} />
