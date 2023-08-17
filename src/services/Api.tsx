@@ -1,7 +1,7 @@
 import { base_url, Api } from "./AxiosCreate"
 
 export const getCategory = async () => {
-  const response = Api({
+  const response = await Api({
     method: "get",
     url: `${base_url}/categories`,
   })
@@ -10,8 +10,8 @@ export const getCategory = async () => {
   return response
 }
 
-export const getPhotos = () => {
-  const response = Api({
+export const getPhotos = async () => {
+  const response = await Api({
     method: "get",
     url: `${base_url}/photos`,
   })
@@ -20,8 +20,8 @@ export const getPhotos = () => {
   return response
 }
 
-export const getPhotoDetail = (id: undefined | string) => {
-  const response = Api({
+export const getPhotoDetail = async (id: undefined | string) => {
+  const response = await Api({
     method: "get",
     url: `${base_url}/photo/${id}`,
   })
@@ -30,8 +30,8 @@ export const getPhotoDetail = (id: undefined | string) => {
   return response
 }
 
-export const showCategory = (category: string) => {
-  const response = Api({
+export const showCategory = async (category: string) => {
+  const response = await Api({
     method: "get",
     url: `${base_url}/categories/${category}/photos`,
   })
@@ -40,8 +40,8 @@ export const showCategory = (category: string) => {
   return response
 }
 
-export const search = (userText: string) => {
-  const response = Api({
+export const search = async (userText: string) => {
+  const response = await Api({
     method: "get",
     url: `${base_url}/photos?search=${userText}`,
   })
