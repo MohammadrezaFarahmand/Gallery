@@ -11,7 +11,7 @@ te
 Runs the app in the development mode.  
 Open [http://localhost:3000](http://lo calhst:3000  ) t view   i i n the rwser
 The page will reload if you mke e   
-You will also see any lint errors in the con
+You will also see any lint errors in the co
 ### `npm 
 Launches the test runner in the interactive wa
 See the section about [running tess](https://facebook.gthb.io/crete-reat-app/docs/running-tts) for more information.
