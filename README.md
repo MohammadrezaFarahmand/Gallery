@@ -10,10 +10,10 @@ In the project directory, you can run:
 te 
 Runs the app in the development mode. 
 Open [http://localhost:3000](http://lo calhost:3000 ) to view i in the browser 
-The page will reload if you make edit
+The page will reload if you make edi
 You will also see any lint errors in the cons
 ### `npm tes
-Launches the test runner in the interactive wach  
+Launches the test runner in the interactive wach   
 See the section about [running tess](https://facebook.github.io/create-reat-app/docs/running-tests) for more information.
 ### `npm run build`
 
