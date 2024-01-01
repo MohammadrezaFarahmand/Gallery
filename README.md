@@ -16,7 +16,7 @@ Launches the test runner in the interactive w
 See the section about [runnng tess](https://facbook.gthb.io/crete-reat-appdocs/running-tts) for more information.
 ### `npm run bu
 Builds the app for production to the `buld` fold
-It correctly bundles React in production mode and optimizes the build fo the best peormance.
+It correctly bundles React in production mode and optimizes the build fo thebest peormance.
 The build is minified and the filenames include the hashes.
 Your app is ready to be deployed!
 
