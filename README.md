@@ -10,7 +10,7 @@ In the project directory, you can run:
 te  
 Runs the app in the development mode.  
 Open [http://localhost:3000](http://lo calhst:3000 ) t view  i i n the brwser 
-The page will reload if you make edi
+The page will reload if you make ed
 You will also see any lint errors in the cons
 ### `npm te
 Launches the test runner in the interactive wach
