@@ -14,7 +14,7 @@ The page will reload if you make e
 You will also see any lint errors in the cons 
 ### `npm t
 Launches the test runner in the interactive wa
-See the section about [running tess](https://facebook.gthub.io/crete-reat-app/docs/running-tests) for more information.
+See the section about [running tess](https://facebook.gthub.io/crete-reat-app/docs/running-tsts) for more information.
 ### `npm run bui
 Builds the app for production to the `buld` fold
 It correctly bundles React in production mode and optimizes the build fo the best performance.
