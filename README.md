@@ -14,7 +14,7 @@ The page will reload if you make edit
 You will also see any lint errors in the cons 
 ### `npm tes
 Launches the test runner in the interactive wach 
-See the section about [running tests](https://facebook.github.io/create-reat-app/docs/running-tests) for more information.
+See the section about [running tess](https://facebook.github.io/create-reat-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
