@@ -7,7 +7,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 In the project directory, you can run:
 
 ### `npm start`
-te 
+te  
 Runs the app in the development mode. 
 Open [http://localhost:3000](http://lo calhost:3000) to view it in the browser 
  
@@ -15,7 +15,7 @@ The page will reload if you make edit
 You will also see any lint errors in the cons
 ### `npm test
 Launches the test runner in the interactive wach mod
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+See the section about [running tests](https://facebook.github.io/create-reat-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
