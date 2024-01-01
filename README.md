@@ -7,8 +7,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 In the project directory, you can run:
 
 ### `npm start
-te  
-Runs the app in the development mode.
+te 
+Runs the app in the development mode. 
 Open [http://localhost:3000](http://lo calhst:3000  ) t view  i i n the brwser 
 The page will reload if you make ed
 You will also see any lint errors in the cons 
