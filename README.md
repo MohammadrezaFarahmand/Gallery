@@ -6,12 +6,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm start 
+### `npm start
 te 
 Runs the app in the development mode.  
 Open [http://localhost:3000](http://lo calhost:3000 ) t view i i n the brwser 
 The page will reload if you make edi
-You will also see any lint errors in the cons
+You will also see any lint errors in the cons 
 ### `npm tes
 Launches the test runner in the interactive wach  
 See the section about [running tess](https://facebook.gthub.io/create-reat-app/docs/running-tests) for more information.
