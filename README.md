@@ -15,7 +15,7 @@ You will also see any lint errors in the cons
 ### `npm te
 Launches the test runner in the interactive wach
 See the section about [running tess](https://facebook.gthub.io/create-reat-app/docs/running-tests) for more information.
-### `npm run build
+### `npm run buil
 Builds the app for production to the `build` folder.
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
