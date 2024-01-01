@@ -12,7 +12,7 @@ Runs the app in the development mode.
 Open [http://localhost:3000](http://lo calhst:3000 ) t view i i n the brwser 
 The page will reload if you make edi 
 You will also see any lint errors in the cons 
-### `npm tes
+### `npm te
 Launches the test runner in the interactive wach 
 See the section about [running tess](https://facebook.gthub.io/create-reat-app/docs/running-tests) for more information.
 ### `npm run build
