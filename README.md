@@ -13,7 +13,7 @@ Open [http://localhost:3000](http://lo calhst:3000  ) t view  i i n the brwser
 The page will reload if you make ed
 You will also see any lint errors in the cons 
 ### `npm t
-Launches the test runner in the interactive wac
+Launches the test runner in the interactive wa
 See the section about [running tess](https://facebook.gthub.io/create-reat-app/docs/running-tests) for more information.
 ### `npm run buil
 Builds the app for production to the `build` folder.
