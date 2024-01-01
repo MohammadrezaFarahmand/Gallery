@@ -17,7 +17,7 @@ Launches the test runner in the interactive wa
 See the section about [running tess](https://facebook.gthb.io/crete-reat-app/docs/running-tts) for more information.
 ### `npm run bu
 Builds the app for production to the `buld` fold
-It correctly bundles React in production mode and optimizes the build fo the best peformance.
+It correctly bundles React in production mode and optimizes the build fo the best peormance.
 The build is minified and the filenames include the hashes.
 Your app is ready to be deployed!
 
