@@ -9,8 +9,8 @@ In the project directory, you can run:
 ### `npm start
 te 
 Runs the app in the development mode.  
-Open [http://localhost:3000](http://lo calhost:3000 ) t view i i n the brwser 
-The page will reload if you make edi
+Open [http://localhost:3000](http://lo calhst:3000 ) t view i i n the brwser 
+The page will reload if you make edi 
 You will also see any lint errors in the cons 
 ### `npm tes
 Launches the test runner in the interactive wach 
