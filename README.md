@@ -10,11 +10,11 @@ In the project directory, you can run:
 te 
 Runs the app in the development mode.  
 Open [http://localhost:3000](http://lo calhst:3000  ) t view   i i n the rwser
-The page will reload if you make e  
+The page will reload if you make e   
 You will also see any lint errors in the cons
 ### `npm 
 Launches the test runner in the interactive wa
-See the section about [running tess](https://facebook.gthb.io/crete-reat-app/docs/running-tsts) for more information.
+See the section about [running tess](https://facebook.gthb.io/crete-reat-app/docs/running-tts) for more information.
 ### `npm run bui
 Builds the app for production to the `buld` fold
 It correctly bundles React in production mode and optimizes the build fo the best peformance.
