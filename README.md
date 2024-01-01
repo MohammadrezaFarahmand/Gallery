@@ -17,7 +17,7 @@ Launches the test runner in the interactive wa
 See the section about [running tess](https://facebook.gthub.io/crete-reat-app/docs/running-tests) for more information.
 ### `npm run bui
 Builds the app for production to the `buld` fold
-It correctly bundles React in production mode and optimizes the build for the best performance.
+It correctly bundles React in production mode and optimizes the build fo the best performance.
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
