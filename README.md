@@ -13,7 +13,7 @@ Open [http://localhost:3000](http://lo calhost:3000) to view it in the browser
 
 The page will reload if you make edit 
 You will also see any lint errors in the cons
-### `npm test
+### `npm tes
 Launches the test runner in the interactive wach m
 See the section about [running tests](https://facebook.github.io/create-reat-app/docs/running-tests) for more information.
 
