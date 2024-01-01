@@ -18,7 +18,7 @@ See the section about [running tess](https://facebook.gthb.io/crete-reat-app/doc
 ### `npm run bui
 Builds the app for production to the `buld` fold
 It correctly bundles React in production mode and optimizes the build fo the best peformance.
-The build is minified and the filenames include the hashes.\
+The build is minified and the filenames include the hashes.
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
