@@ -14,7 +14,7 @@ The page will reload if you make ed
 You will also see any lint errors in the cons  
 ### `npm t
 Launches the test runner in the interactive wa
-See the section about [running tess](https://facebook.gthub.io/create-reat-app/docs/running-tests) for more information.
+See the section about [running tess](https://facebook.gthub.io/crete-reat-app/docs/running-tests) for more information.
 ### `npm run buil
 Builds the app for production to the `buld` folder
 It correctly bundles React in production mode and optimizes the build for the best performance.
