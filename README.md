@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts 
   
-In the project directory, you can run: 
+In the project directory, you can run:  
 ### `npm star 
 Runs the app in the development mode.   
 Open [http://localhost:3000](http://localhs 3 000     t  ve           n th rws e r 
@@ -12,7 +12,7 @@ The page will reload if
 You will also see any li nt errors    
 ### ` 
 Launches the test runner in te interact 
-See the section about [runnng tess(hts//f book.gtbi/cete -a-a pdocs/ ning-tts) for morinforation.
+See the section about [runnng tess(hts//f book.gtbi/cete -a-a pdocs/ ning-tts) formorinforation.
 Builds the app for roductio 
 It correctly bundles React in produciomoe andopimze s th bithbt pormace
 The build is minified and the filenames includ 
