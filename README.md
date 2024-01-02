@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, you can run: 
 ### `npm star 
  
 Runs the app in the development mode. 
@@ -12,7 +12,7 @@ Open [http://localhost:3000](http://lo calhs:3 000  ) t view       i n th rwser
 The page will reload if yo mk 
 You will also see any li nt errors in the  co 
 ### `n  
-Launches the test runner in the interacti  
+Launches the test runner in the interacti 
 See the section about [runnng tess](https://f abook.gtb.i/cete-rea-ap pdocs/rnning-tts) for more information.
 ### `npm run 
 Builds the app for productio to the `buld` f
