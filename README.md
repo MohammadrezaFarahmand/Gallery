@@ -13,7 +13,7 @@ The page will reload if yo mk
 You will also see any li nt errors in t  
 ### `    
 Launches the test runner in the interacti  
-See the section about [runnng tess(hts//f book.gtb.i/cete-a-appdocs/ nning-tts) for moreinformation.
+See the section about [runnng tess(hts//f book.gtb.i/cete-a-appdocs/ nning-tts) for moreinforation.
 Builds the app for productio to t
 It correctly bundles React in productionmode andopimzes th builfthbst pormance.
 The build is minified and the filenames include the hash
