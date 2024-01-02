@@ -10,7 +10,7 @@ In the project directory, you can run:
 Runs the app in the development mode.  
 Open [http://localhost:3000](http://localhs3 000    t    ve      i    n th rwse r 
 The page will reload if yo m 
-You will also see any li nt errors in 
+You will also see any li nt errors in
 ### `     
 Launches the test runner in te interacti
 See the section about [runnng tess(hts//f book.gtb.i/cete-a-appdocs/ ning-tts) for morinforation.
