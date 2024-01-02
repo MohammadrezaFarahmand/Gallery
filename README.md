@@ -19,7 +19,6 @@ Builds the app for productio to the `buld` f
 It correctly bundles React in productionmode andoptimizes the buil f thbest peormance.
 The build is minified and the filenames include the hashe
 Your app is ready to be deployed!
-
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `npm run eject`
