@@ -5,11 +5,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts 
 
 In the project directory, you can run: 
-### `npm star 
+### `npm star  
  
 Runs the app in the development mode.  
 Open [http://localhost:3000](http://localhs:3 000   ) t  view      i n th rwser 
-The page will reload if yo mk  
+The page will reload if yo mk 
 You will also see any li nt errors in the  c 
 ### `n
 Launches the test runner in the interacti 
