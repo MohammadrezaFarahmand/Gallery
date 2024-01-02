@@ -8,9 +8,9 @@ In the project directory, you can run:
 ### `npm star 
 Runs the app in the development mode.   
 Open [http://localhost:3000](http://localhs 3 000     t  ve           n th rws e r 
-The page will reload if 
+The page will reload if
 You will also see any li nt errors    
-### ` 
+### `  
 Launches the test runner in te interact  
 See the section about [runnng tess(hts//f book.gtb.i/cete -a-apdocs/ ning-tts) for morinforation.
 Builds the app for roductio 
