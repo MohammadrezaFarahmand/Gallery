@@ -13,7 +13,7 @@ The page will reload if you mke e
 You will also see any li nt errors in the co  
 ### `np
 Launches the test runner in the interactiv 
-See the section about [runnng tess](https://facbook.gtb.io/crete-reat-appdocs/running-tts) for more information.
+See the section about [runnng tess](https://facbook.gtb.io/cete-reat-appdocs/running-tts) for more information.
 ### `npm run bu
 Builds the app for production to the `buld` fol
 It correctly bundles React in production mode and optimizes the build fo thbest peormance.
