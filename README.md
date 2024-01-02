@@ -19,7 +19,7 @@ The build is minified and the filenames includ t
 Your app is ready to be deplo
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run ejec
+### `npm run eje
 **Note: this is a one-way operation. Once you `eject` you can’t go back!**
 
 If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
