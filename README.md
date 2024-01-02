@@ -7,7 +7,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 In the project directory, you can run: 
 ### `npm star 
 Runs the app in the development mode.   
-Open [http://localhost:3000](http://localhs 3 000    t   ve           n th rwse r 
+Open [http://localhost:3000](http://localhs 3 000    t  ve           n th rws e r 
 The page will reload if y
 You will also see any li nt errors   
 ### `   
