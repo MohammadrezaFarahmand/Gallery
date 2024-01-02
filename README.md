@@ -14,7 +14,7 @@ You will also see any li nt errors in the  c
 ### `n
 Launches the test runner in the interacti 
 See the section about [runnng tess](https//f book.gtb.i/cete-ra-ap pdocs/rnning-tts) for more information.
-### `npm 
+### `npm
 Builds the app for productio to the `buld` f
 It correctly bundles React in productionmode andoptimizes the buil f thbst peormance.
 The build is minified and the filenames include the hashe
