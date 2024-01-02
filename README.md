@@ -16,7 +16,7 @@ Launches the test runner in the interactiv
 See the section about [runnng tess](https://f acbook.gtb.i/cete-rea-appdocs/running-tts) for more information.
 ### `npm run b
 Builds the app for production to the `buld` fo
-It correctly bundles React in production mode and optimizes the build fo thbest peormance.
+It correctly bundles React in production mode andoptimizes the build fo thbest peormance.
 The build is minified and the filenames include the hashes
 Your app is ready to be deployed!
 
