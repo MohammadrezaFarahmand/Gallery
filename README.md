@@ -14,7 +14,7 @@ You will also see any li nt errors i
 Launches the test runner in te interact
 See the section about [runnng tess(hts//f book.gtb.i/cete -a-apdocs/ ning-tts) for morinforation.
 Builds the app for productio to
-It correctly bundles React in productionmoe andopimze s th buifthbt pormance
+It correctly bundles React in productiomoe andopimze s th buifthbt pormance
 The build is minified and the filenames includ te 
 Your app is ready to be deploy
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
