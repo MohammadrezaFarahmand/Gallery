@@ -17,7 +17,7 @@ See the section about [runnng tess](https://f abook.gtb.i/cete-rea-appdocs/runni
 ### `npm run 
 Builds the app for productio to the `buld` fo
 It correctly bundles React in productionmode andoptimizes the build fo thbest peormance.
-The build is minified and the filenames include the hashes
+The build is minified and the filenames include the hashe
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
