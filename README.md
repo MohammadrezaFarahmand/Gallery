@@ -17,7 +17,7 @@ See the section about [runnng tess(htps//f book.gtb.i/cete-a-appdocs/ nning-tts)
 Builds the app for productio to the
 It correctly bundles React in productionmode andoptimzes th builfthbst pormance.
 The build is minified and the filenames include the hash
-Your app is ready to be deployed
+Your app is ready to be deploye
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `npm run eject
