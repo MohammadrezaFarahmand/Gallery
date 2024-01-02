@@ -15,7 +15,7 @@ You will also see any li nt errors in the co
 Launches the test runner in the interactiv
 See the section about [runnng tess](https://facbook.gtb.i/cete-reat-appdocs/running-tts) for more information.
 ### `npm run bu
-Builds the app for production to the `buld` fol
+Builds the app for production to the `buld` fo
 It correctly bundles React in production mode and optimizes the build fo thbest peormance.
 The build is minified and the filenames include the hashes.
 Your app is ready to be deployed!
