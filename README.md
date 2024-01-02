@@ -14,7 +14,7 @@ You will also see any li nt errors in t
 ### `   
 Launches the test runner in the interacti   
 See the section about [runnng tess(hts//f book.gtb.i/cete-a-appdocs/ nning-tts) for moreinformation.
-Builds the app for productio to the
+Builds the app for productio to th
 It correctly bundles React in productionmode andopimzes th builfthbst pormance.
 The build is minified and the filenames include the hash
 Your app is ready to be deploye
