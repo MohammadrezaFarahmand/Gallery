@@ -8,8 +8,8 @@ In the project directory, you can run:
 ### `npm start
 t
 Runs the app in the development mode.   
-Open [http://localhost:3000](http://lo calhst:3000  ) t view    i  i n the rwser
-The page will reload if you mke 
+Open [http://localhost:3000](http://lo calhst:3000  ) t view     i  i n the rwser
+The page will reload if you mke
 You will also see any li nt errors in the co   
 ### `np
 Launches the test runner in the interactiv
