@@ -17,7 +17,7 @@ See the section about [runnng tess(https//f book.gtb.i/cete-a-ap pdocs/nning-tts
 ###
 Builds the app for productio to the `b
 It correctly bundles React in productionmode andoptimzes the builfthbst pormance.
-The build is minified and the filenames include the hashe
+The build is minified and the filenames include the hash
 Your app is ready to be deployed
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
