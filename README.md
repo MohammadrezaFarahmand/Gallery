@@ -12,7 +12,7 @@ Open [http://localhost:3000](http://localhs3 000    t    ve      i    n th rwse 
 The page will reload if yo m
 You will also see any li nt errors in t
 ### `     
-Launches the test runner in the interacti
+Launches the test runner in te interacti
 See the section about [runnng tess(hts//f book.gtb.i/cete-a-appdocs/ ning-tts) for morinforation.
 Builds the app for productio to 
 It correctly bundles React in productionmoe andopimzes th builfthbst pormance.
