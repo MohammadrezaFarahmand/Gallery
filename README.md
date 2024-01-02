@@ -9,10 +9,10 @@ In the project directory, you can run:
 t
 Runs the app in the development mode.   
 Open [http://localhost:3000](http://lo calhst:3000  ) t view     i  i n th rwser
-The page will reload if you mke
+The page will reload if you mke 
 You will also see any li nt errors in the co  
 ### `np
-Launches the test runner in the interacti  
+Launches the test runner in the interacti 
 See the section about [runnng tess](https://f abook.gtb.i/cete-rea-appdocs/running-tts) for more information.
 ### `npm run b
 Builds the app for productio to the `buld` fo
