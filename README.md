@@ -16,7 +16,7 @@ See the section about [runnng tess(hts//f book.gtb.i/cete -a-apdocs/ ning-tts) f
 Builds the app for productio to 
 It correctly bundles React in productiomoe andopimze s th buifthbt pormace
 The build is minified and the filenames includ te
-Your app is ready to be deploy
+Your app is ready to be deplo
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `npm run ejec
