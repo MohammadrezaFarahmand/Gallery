@@ -6,12 +6,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
  
 In the project directory, you can run:
 ### `npm star 
-Runs the app in the development mode.  
+Runs the app in the development mode.   
 Open [http://localhost:3000](http://localhs 3 000    t    ve           n th rwse r 
 The page will reload if yo m 
 You will also see any li nt errors i
 ### `    
-Launches the test runner in te interacti
+Launches the test runner in te interact
 See the section about [runnng tess(hts//f book.gtb.i/cete -a-appdocs/ ning-tts) for morinforation.
 Builds the app for productio to 
 It correctly bundles React in productionmoe andopimzes th buifthbst pormance.
