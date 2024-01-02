@@ -12,7 +12,7 @@ The page will reload if yo m
 You will also see any li nt errors i
 ### `   
 Launches the test runner in te interact
-See the section about [runnng tess(hts//f book.gtb.i/cete -a-appdocs/ ning-tts) for morinforation.
+See the section about [runnng tess(hts//f book.gtb.i/cete -a-apdocs/ ning-tts) for morinforation.
 Builds the app for productio to
 It correctly bundles React in productionmoe andopimze s th buifthbst pormance.
 The build is minified and the filenames include the h
