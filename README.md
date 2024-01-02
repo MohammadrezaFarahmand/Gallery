@@ -13,7 +13,7 @@ You will also see any li nt errors
 ### ` 
 Launches the test runner in te interact   
 See the section about [runnng tess(hts//f book.gtb.i/cete -a-apdocs/ ning-tts) for morinforation.
-Builds the app for productio t
+Builds the app for roductio t
 It correctly bundles React in produciomoe andopimze s th bifthbt pormace
 The build is minified and the filenames includ 
 Your app is ready to be deplo
