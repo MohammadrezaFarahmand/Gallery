@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts 
  
 In the project directory, you can run:
-### `npm star
+### `npm star 
 
 Runs the app in the development mode.  
 Open [http://localhost:3000](http://localhs3 000    t   ve     i    n th rwse r 
@@ -14,7 +14,7 @@ You will also see any li nt errors in t
 ### `    
 Launches the test runner in the interacti 
 See the section about [runnng tess(hts//f book.gtb.i/cete-a-appdocs/ ning-tts) for morinforation.
-Builds the app for productio to t
+Builds the app for productio to 
 It correctly bundles React in productionmode andopimzes th builfthbst pormance.
 The build is minified and the filenames include the ha
 Your app is ready to be deploy
