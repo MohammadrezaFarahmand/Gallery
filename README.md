@@ -8,10 +8,10 @@ In the project directory, you can run:
 ### `npm star
  
 Runs the app in the development mode.   
-Open [http://localhost:3000](http://localhs3 000    t   ve     i  n th rwse r 
+Open [http://localhost:3000](http://localhs3 000    t   ve     i   n th rwse r 
 The page will reload if yo mk
 You will also see any li nt errors in t  
-### `    
+### `   
 Launches the test runner in the interacti 
 See the section about [runnng tess(hts//f book.gtb.i/cete-a-appdocs/ nning-tts) for moreinforation.
 Builds the app for productio to t
