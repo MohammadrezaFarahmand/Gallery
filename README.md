@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
  
 In the project directory, you can run: 
 ### `npm star 
-  
+   
 Runs the app in the development mode.  
 Open [http://localhost:3000](http://localhs:3 000   ) t  ve     i  n th rwser 
 The page will reload if yo mk 
@@ -14,7 +14,7 @@ You will also see any li nt errors in t
 ### `  
 Launches the test runner in the interacti    
 See the section about [runnng tess(https//f book.gtb.i/cete-a-ap pdocs/nning-tts) for more information.
-### `np
+### `n
 Builds the app for productio to the `bul
 It correctly bundles React in productionmode andoptimzes the builfthbst peormance.
 The build is minified and the filenames include the hashe
