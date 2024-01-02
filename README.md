@@ -13,7 +13,7 @@ The page will reload if yo mk
 You will also see any li nt errors in the  c 
 ### `n
 Launches the test runner in the interacti 
-See the section about [runnng tess](https//f abook.gtb.i/cete-rea-ap pdocs/rnning-tts) for more information.
+See the section about [runnng tess](https//f book.gtb.i/cete-rea-ap pdocs/rnning-tts) for more information.
 ### `npm 
 Builds the app for productio to the `buld` f
 It correctly bundles React in productionmode andoptimizes the buil f thbst peormance.
