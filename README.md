@@ -7,10 +7,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 In the project directory, you can run: 
 ### `npm star 
  
-Runs the app in the development mode. 
+Runs the app in the development mode.  
 Open [http://localhost:3000](http://lo calhs:3 000  ) t view       i n th rwser 
 The page will reload if yo mk 
-You will also see any li nt errors in the  co
+You will also see any li nt errors in the  c
 ### `n  
 Launches the test runner in the interacti 
 See the section about [runnng tess](https://f abook.gtb.i/cete-rea-ap pdocs/rnning-tts) for more information.
