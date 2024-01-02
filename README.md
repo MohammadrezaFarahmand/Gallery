@@ -13,7 +13,7 @@ The page will reload if you mke
 You will also see any li nt errors in the co   
 ### `np
 Launches the test runner in the interactiv
-See the section about [runnng tess](https://f acbook.gtb.i/cete-reat-appdocs/running-tts) for more information.
+See the section about [runnng tess](https://f acbook.gtb.i/cete-rea-appdocs/running-tts) for more information.
 ### `npm run b
 Builds the app for production to the `buld` fo
 It correctly bundles React in production mode and optimizes the build fo thbest peormance.
