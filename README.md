@@ -11,8 +11,8 @@ Open [http://localhost:3000](http://localhs 3 000     t  ve           n th rws e
 The page will reload if
 You will also see any li nt errors    
 ### ` 
-Launches the test runner in te interact  
-See the section about [runnng tess(hts//f book.gtbi/cete -a-apdocs/ ning-tts) for morinforation.
+Launches the test runner in te interact 
+See the section about [runnng tess(hts//f book.gtbi/cete -a-a pdocs/ ning-tts) for morinforation.
 Builds the app for roductio 
 It correctly bundles React in produciomoe andopimze s th bifthbt pormace
 The build is minified and the filenames includ 
