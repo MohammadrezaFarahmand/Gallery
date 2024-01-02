@@ -12,7 +12,7 @@ Open [http://localhost:3000](http://localhs:3 000   ) t  ve     i  n th rwse r
 The page will reload if yo mk  
 You will also see any li nt errors in t
 ### `  
-Launches the test runner in the interacti      
+Launches the test runner in the interacti     
 See the section about [runnng tess(https//f book.gtb.i/cete-a-ap pdocs/nning-tts) for more information.
 ##
 Builds the app for productio to the `b
